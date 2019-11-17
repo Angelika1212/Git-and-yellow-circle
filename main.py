@@ -20,6 +20,7 @@ class Example(QWidget):
     def run(self):
         self.pixmap = QPixmap('Безымянный.png')
         self.label.setPixmap(self.pixmap)
+        self.label.resize(500, 500)
 
 
 if __name__ == '__main__':
